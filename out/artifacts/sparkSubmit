@@ -1,0 +1,15 @@
+spark-submit \
+--master local[4] \
+--class com.scdprocess.MainOfSCD \
+/home/hduser/IdeaProjects/mavenscala/out/artifacts/mavenscala_jar/mavenscala.jar \
+1
+
+
+
+
+
+
+
+spark-submit \
+--class  ScdPackage.MainOfSCD.scala \
+/home/hduser/IdeaProjects/mavenscala/out/artifacts/mavenscala_jar/mavenscala_jar.jar
